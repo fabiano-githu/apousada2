@@ -1,0 +1,153 @@
+
+section.containerprincipal div#global {
+  width: 1200px;
+  height: 350px;
+  
+}
+
+section.containerprincipal div#global h1 {
+  font-size: 26px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+section.containerprincipal div#global div#container_imagem {
+  width: 600px;
+  height: 350px;
+  /*background-color: pink;*/
+  float: left;  
+}
+
+section.containerprincipal div#global div#container_imagem img {
+  width: 510px;
+  height: 340px;
+  border-radius: 10px;
+  margin-top: 50px;
+  border: #D9CDBF 5px solid;
+  box-shadow: black 10px 10px 10px;
+}
+
+section.containerprincipal div#global div#container_imagem img:hover {
+  scale: 1.1;
+  transition: 0.100s;
+ 
+}
+
+section.containerprincipal div#global div#container_texto {
+  width: 600px;
+  height: 350px;
+  /*background-color: aqua;*/
+  float: right;
+}
+
+section.containerprincipal div#global div#container_texto p {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  margin-top: 50px;
+
+}
+
+section.containerprincipal div#global button {
+  width: 200px;
+  height: 45px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #D9CDBF;
+  box-shadow: black 10px 10px 10px;
+  margin-top: 20px;
+  border: none;
+}
+
+section.containerprincipal div#global button:hover {
+  scale: 1.1;
+  transition: 0.100s;
+}
+
+
+section.containerprincipal div#container_fotos h2 {
+  font-size: 26px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  margin-top: 200px;
+  
+}
+
+section.containerprincipal div#container_fotos p {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+section.containerprincipal div#fotos {
+  width: 1200px;
+  height: 800px;
+  /*background-color: aqua;*/
+  margin-top: 70px;
+
+}
+
+section.containerprincipal div#fotos img {
+  width: 388px;
+  height: 388px;
+  border-radius: 10px;
+  border: #D9CDBF 5px solid;
+  box-shadow: black 20px 20px 20px;
+
+}
+
+section.containerprincipal div#fotos img:hover {
+  scale: 1.1;
+  transition: 0.100s;
+}
+
+section.containerprincipal div#fotos div#foto1 {
+  width: 388px;
+  height: 388px;
+  margin: 6px;
+  /*background-color: aquamarine;*/
+  float: left;
+}
+
+section.containerprincipal div#fotos div#foto2 {
+  width: 388px;
+  height: 388px;
+  margin: 6px;
+  float: left;
+}
+
+section.containerprincipal div#fotos div#foto3 {
+  width: 388px;
+  height: 388px;
+  margin: 6px;
+  float: left;
+}
+
+section.containerprincipal div#fotos div#foto4 {
+  width: 388px;
+  height: 388px;
+  margin: 6px;
+  float: left;
+}
+
+section.containerprincipal div#fotos div#foto5 {
+  width: 388px;
+  height: 388px;
+  margin: 6px;
+  float: left;
+}
+
+section.containerprincipal div#fotos div#foto6 {
+  width: 388px;
+  height: 388px;
+  margin: 6px;
+  float: left;
+}

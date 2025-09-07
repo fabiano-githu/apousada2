@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>A Pousada</title>
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/slide.css">
+       
+        
+
+    </head>
+    <body>
+        <header class="cabecalho">
+            <div class="topo">
+                <div class="endereco">
+                    <p>Rua Constantino Menelau, 260 Passagem - Cabo Frio/RJ</p>
+                </div>
+                <div class="whats">
+                    <a href="#" target="_blank"> <img src="img/whatsapp.png" width="30"></a>
+                    <p>(24) 3351-1309</p>
+                </div>
+                <!-- Redes Sociais -->
+                <div class="redesociaistopo">
+                  <img src="img/facebook.png" alt="icone facebook" class="facebook" width="20" height="20">
+                  <img src="img/Instagram_logo_2022.svg.png" alt="icone instagram" class="instagram" width="20" height="20">
+                  <img src="img/5295-youtube-i_102568.webp" alt="icone youtube" class="youtube" width="25" height="35">
+                </div>
+            </div>
+            <div class="navegacao">
+
+                <div class="navegacaoprincipal">
+
+                    <div class="logo">
+                        <a href="index.html"> <img src="img/Captura_de_tela_2025-05-29_104903-removebg-preview.png" width="100"> </a>
+                    </div>
+
+                    <div class="menu">
+
+                        <nav class="menuprincipal">
+
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="turismo.html">Turismo</a></li>
+                                <li><a href="historia.html">História</a></li>
+                                <li><a href="apousada.html">A Pousada</a></li>
+                                <li><a href="regiao.html">Região</a></li>
+                                <li><a href="contato.html">Contato</a></li>
+                            </ul>
+
+                        </nav>
+
+                    </div>
+
+                    <div class="idiomas">
+
+                        <img src="img/depositphotos_2128348-stock-illustration-brazil-flag-button-vector-redimensionado-para-450x450-removebg-preview.png" class ="brazil" width="35">
+                        <img src="img/597-5973646_us-flag-icon-usa-flag-round-hd-png-redimensionado-para-450x450-removebg-preview.png" width="28">
+                        <img src="img/23122206-um-botão-de-pino-com-a-bandeira-da-república-portuguesa-isolado-no-fundo-branco-removebg-preview.png" width="30" >
+
+                    </div>
+                
+                </div>
+
+            </div> 
+
+        </header>
+        <div class="faixaform">
+            <div class="formtopo">
+                <form action="#" method="post">
+                    <div class="reserve">Reserve Agora</div>
+                    <div class="dtentrada">
+                        <input type="text" placeholder="Data Entrada - Data Saída" class="" name="entrada">
+                    </div>
+                    <div class="nadulto">
+                        <input type="number" min="1" placeholder="Nº DE ADULTOS" class="" name="na">
+                    </div>
+                    <div class="ncrianca">
+                        <input type="number" min="0" placeholder="Nº DE CRIANÇAS" class="" name="nc">
+                    </div>
+                    <div class="btverificar">
+                        <button class="btn-reservas" type="button" name="button">Verificar</button>
+                    </div>
+                </form>
+            </div> <!--Fim Form Topo-->
+        </div> <!--Fim Faixa Form-->
+
+        <article class="imagem">
+            <img src="img/Captura de tela 2025-08-27 134824.jpg" width="100%" height="550">
+        </article>
+
+        <section class="containerhome">
+
+            <aside class="caixaestadia">
+                <h1>Garanta uma estadia inesquecível</h1>
+
+                <p>Aconchego e sofisticação no coração de Penedo</p>
+
+                <button class="consulte" type="button" name="button">Consulte as melhores diárias</button>
+
+            </aside> <!--Fim Caixa Estadia-->
+
+            <div class="carousel">
+        
+                <div class="carousel-item active">
+                  <!-- Primeiro slide, marcado como ativo inicialmente -->
+                    <div class="carousel-content">
+                     <h1>Qualidade Garantida</h1>
+                      <p>Oferecemos serviços excepcionais com atenção aos detalhes para sua total satisfação.</p>
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+                    <!-- Segundo slide -->
+                    <div class="carousel-content">
+                     <h1>Atendimento Personalizado</h1>
+                     <p>Nosso time está pronto para ouvir suas necessidades e entregar resultados incríveis.</p>
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+                 <!-- Terceiro slide -->
+                    <div class="carousel-content">
+                     <h1>Ambiente Acolhedor</h1>
+                     <p>Venha relaxar em um espaço pensado para seu conforto e bem-estar.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-dots">
+                 <!-- Caixa para os indicadores (bolinhas) -->
+                 <span class="carousel-dot active" onclick="goToSlide(0)"></span>
+                 <!-- Bolinha para o primeiro slide, ativa inicialmente -->
+                 <span class="carousel-dot" onclick="goToSlide(1)"></span>
+                 <!-- Bolinha para o segundo slide -->
+                 <span class="carousel-dot" onclick="goToSlide(2)"></span>
+                 <!-- Bolinha para o terceiro slide -->
+                </div>
+
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.8256718589955!2d-44.52932380027058!3d-22.435586340721862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9e799274bb8327%3A0x822c0ac4dcdfc2b0!2sPousada%20Penedo!5e0!3m2!1spt-BR!2sbr!4v1755603665925!5m2!1spt-BR!2sbr" width="1600" height="600" style="border:0;display:block; margin: auto;" allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        </section> <!--Fim Container Home-->
+
+        
+        <footer class="rodape">
+            <div class="rodapeprincipal">
+
+                <div class="faleconosco">
+                    <h2>Fale Conosco</h2>
+                    <div class="whats">
+                        <img src="img/whatsapp.png" width="40">
+                        (24)9223-2322
+                    </div>
+                    <div class="telefone">
+                        <img src="img/whatsapp.png" width="40">
+                        (24)9223-2322
+                    </div>
+                    <p>Estrada do Córrego Frio, 365, Penedo, RJ</p>
+                    <p><a href="https://www.google.com.br/maps/@-22.9044546,-43.548672,15z?entry=ttu&g_ep=EgoyMDI1MDczMC4wIKXMDSoASAFQAw%3D%3D" target="_blank">Como Chegar</a></p>
+                </div> <!--Fim Fale Conosco-->
+
+                <div class="news">
+                    <h2>Newsletter</h2>
+                    <p>Receba novidades sobre a nossa Pousada e Promoções Exclusivas no seu E-mail. Seus dados não serão compartilhados com nenhum parceiro.</p>
+
+                <div class="formnewsrodape">
+                     <div class="formnews">
+                         <form action="#" method="post">
+                            <div class="seunomenews">
+                                <input type="text" placeholder="Seu Nome" class="" name="nome">
+                            </div>
+                             <div class="emailnews">
+                                <input type="text" placeholder="Seu E-mail" class="" name="email">
+                             </div>
+                             <div class="cadastrarnews">
+                                <button class="cadastrar" type="button" class="" name="button">Cadastrar</button>
+                             </div>
+                        </form>
+                    </div> <!--Fim Form News-->
+          </div> <!--Fim Form News Rodapé-->
+
+
+                </div> <!--Fim News-->
+                <div class="institucional">
+                    <h2>Institucional</h2>
+
+                     <nav class="menuinstitucional">
+                            <ul>
+                                <li><a href="#">Política de Cancelamento</li></a>
+                                <li><a href="#">Política de reservas</li></a>
+                                <li><a href="#">Política de grupos</li></a>
+                            </ul>
+                    </nav>
+
+
+                </div> <!--Fim Institucional-->
+            </div> <!--Fim Rodapé Principal-->
+
+        </footer> <!--Fim Rodapé-->
+
+         
+
+
+        <script src=js/index.js></script>
+
+    </body>
+
+
+</html>

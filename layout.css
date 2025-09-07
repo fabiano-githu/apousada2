@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header.cabecalho {
+    width: 100%;
+    height: 45px;
+    background-color: #D9CDBF;
+}
+
+header.cabecalho div.topo {
+    width: 1200px;
+    height: 45px;
+    margin: auto;
+    display: flex;
+    background-color: #D9CDBF;
+}
+
+header.cabecalho div.topo div.endereco {
+    width: 400px;
+    height: 45px;
+    /*background-color: aquamarine;*/
+}
+
+header.cabecalho div.topo div.endereco p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 15px;
+    color: 663333;
+}
+
+header.cabecalho div.topo div.whats {
+    width: 645px;
+    height: 45px;
+    margin-left: 75px;
+    /*background-color: brown;*/
+}
+
+header.cabecalho div.topo div.whats img {
+    float: left;
+    margin-top: 8px;
+}
+
+header.cabecalho div.topo div.whats img:hover {
+    opacity: 0.10;
+    scale: 1.2;
+    transition: 0.5s;
+}
+ 
+
+header.cabecalho div.topo div.whats p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 15px;
+    color: 663333;
+    float: left;
+    margin-left: 10px;
+}
+
+header.cabecalho div.topo div.redesociaistopo{
+    width: 250px;
+    height: 45px;
+    margin-left: 10px;
+    /*background-color: rgb(210, 30, 54);*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+   
+}
+
+header.cabecalho div.topo div.redesociaistopo a {
+    text-decoration: none;
+}
+
+header.cabecalho div.topo div.redesociaistopo  img:hover {
+    opacity: 0.10;
+    scale: 1.2;
+    transition: 0.5s;
+}
+
+header.cabecalho div.navegacao {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+header.cabecalho div.navegacao div.navegacaoprincipal {
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    /*background-color: rgb(180, 137, 81);*/
+}
+
+header.cabecalho div.navegacao div.navegacaoprincipal div.logo {
+    width: 100px;
+    height: 100px;
+    /*background-color: rgb(80, 41, 41);*/
+    align-items: center;
+   
+}
+
+header.cabecalho div.navegacao div.navegacaoprincipal div.logo img {
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    margin-top: 18px;
+}
+
+header.cabecalho div.navegacao div.navegacaoprincipal div.logo img:hover {
+    opacity: 0.10;
+    scale: 1.1;
+    transition: 0.200s;
+}
+
+header.cabecalho div.navegacao div.navegacaoprincipal div.menu {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: white;
+}
+
+header.cabecalho div.navegacao div.navegacaoprincipal div.menu ul li {
+    display: inline;
+    margin: 0 15px;
+    line-height: 100px;
+}
+
+header.cabecalho div.navegacao div.navegacaoprincipal div.menu ul li a {
+    color: #363636;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+header.cabecalho div.navegacao div.navegacaoprincipal div.menu ul li a:hover {
+    color: #636363;
+    scale: 1.2;
+    transition: 0.5s
+}
+
+header.cabecalho div.navegacao div.navegacaoprincipal div.idiomas {
+    width: 190px;
+    height: auto;
+    display: flex;
+    margin-top: 5px;
+    /*background-color: darkgoldenrod;*/
+    align-items: center;
+}
+
+header.cabecalho div.navegacao div.navegacaoprincipal div.idiomas img {
+  margin-left: 200px;
+  margin: 0;
+}
+
+header.cabecalho div.navegacao div.navegacaoprincipal div.idiomas img:hover {
+    opacity: 0.10;
+    scale: 1.2;
+    transition: 0.5s;
+}
+
+
+
+
+div.faixaform{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(5, 5, 4);
+    margin-top: 120px;
+}
+
+div.faixaform div.formtopo{
+    width: 1200px;
+    height: 80px;
+    /*background-color: rgb(169, 169, 37);*/
+    margin: auto;
+}
+
+div.faixaform div.formtopo div.reserve,  div.faixaform div.formtopo div.dtentrada, div.faixaform div.formtopo 
+div.nadulto, div.faixaform div.formtopo div.ncrianca, div.faixaform div.formtopo div.btverificar{
+    width: 150px;
+    height: 70px;
+    /*background-color: aqua;*/
+    display: inline;
+    line-height: 40px;
+    border-radius: 50px;
+    
+}
+
+
+div.faixaform div.formtopo div.dtentrada, div.faixaform div.formtopo 
+div.nadulto, div.faixaform div.formtopo div.ncrianca, div.faixaform div.formtopo div.btverificar{
+    margin-left: 50px;
+}
+
+div.faixaform div.formtopo div.reserve{
+    color:white ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;    
+}
+
+div.faixaform div.formtopo div.reserve:hover{
+    color: #D9CDBF;
+    translate: 0.100s;
+    transition: 0.100s;
+    scale: 2.3;
+    gap: 1px;
+}
+
+div.faixaform div.formtopo div.dtentrada input, div.faixaform div.formtopo 
+div.nadulto input, div.faixaform div.formtopo  div.ncrianca input{
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 30px;
+    border: #D9CDBF 2px solid;
+}
+
+div.faixaform div.formtopo div.btverificar button{
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #262626;
+    color: white;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+div.faixaform div.formtopo div.btverificar button:hover{
+    background-color: #D9CDBF;
+    translate: 0.100s;
+    transition: 0.100s;
+    scale: 1.2;
+}
+
+article.imagem {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    margin-bottom: -4px;
+    
+}
+
+section.containerhome {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  
+   
+}
+
+section.containerhome aside.caixaestadia {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    box-shadow: black 10px 10px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  
+}
+
+
+section.containerhome aside.caixaestadia button{
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: #262626;
+    color: white;
+    font-size: 15px;
+    margin-left: 500px;
+    box-shadow: black 10px 10px 10px;
+}
+
+
+
+section.containerhome aside.caixaestadia button.consulte {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  
+}
+
+section.containerhome aside.caixaestadia h2 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  
+}
+
+section.containerhome iframe {
+  width: 100%;
+  margin-bottom: 200px;
+  box-shadow: black 10px 10px 10px;
+  
+}
+
+section.apousada div#caixaimagemtexto{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+
+
+}
+
+section.containerprincipal {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+footer.rodape {
+    width: 100%;
+    height: 400px;
+    background-color:#D9CDBF;
+    margin-top: 50px;
+    
+}
+
+footer.rodape div.rodapeprincipal {
+    width: 1200px;
+    height: 350px;
+    /*background-color: beige;*/
+    margin: auto;
+}
+
+footer.rodape div.rodapeprincipal div.faleconosco {
+    width: 350px;
+    height: 350px;
+    /*background-color: #262626;*/
+    float: left;
+}
+
+footer.rodape div.rodapeprincipal div.faleconosco div.whats {
+    width: 50%;
+    height: 100px;
+    /*background-color: coral;*/
+    float: left;
+    text-align: center;
+    color: #262626;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+footer.rodape div.rodapeprincipal div.faleconosco div.telefone {
+    width: 50%;
+    height: 100px;
+    /*background-color: coral;*/
+    float: left;
+    text-align: center;
+    color: #262626;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+footer.rodape div.rodapeprincipal div.faleconosco p {
+   text-align: center;
+   color: #262626;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 14px;
+   line-height: 32px;
+}
+
+footer.rodape div.rodapeprincipal div.faleconosco p a {
+    background-color: #BFAF9E;
+   border: 2px solid white;
+   padding: 5px 15px;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 14px;
+   line-height: 55px;
+   text-decoration: none;
+   text-align: center;
+   
+}
+
+
+
+
+footer.rodape div.rodapeprincipal div.faleconosco div.whats img {
+    display: block;
+    margin: auto;
+}
+
+footer.rodape div.rodapeprincipal div.faleconosco div.whats img:hover {
+    scale: 1.1;
+    transition: 0.100s;
+   
+}
+
+footer.rodape div.rodapeprincipal div.faleconosco div.telefone img {
+    display: block;
+    margin: auto;
+}
+
+footer.rodape div.rodapeprincipal div.faleconosco div.telefone img:hover {
+    scale: 1.1;
+    transition: 0.100s;
+}
+
+footer.rodape div.rodapeprincipal div.news {
+    width: 350px;
+    height: 350px;
+    /*background-color: green;*/
+    float: left;
+    margin-left: 75px;
+}
+
+footer.rodape div.rodapeprincipal div.news p{
+  text-align: center;
+   color:#262626;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 14px;
+   line-height: 24px;
+
+}
+
+/***********************************/
+
+footer.rodape div.rodapeprincipal div.news div.formnewsrodape{
+    width: 350px;
+    height: 130px;
+    /*background-color: aliceblue;*/
+    margin-top: 30px;  
+}
+footer.rodape div.rodapeprincipal div.news div.formnews{
+    width: 250px;
+    height: 130px;
+    /*background-color: #663333;*/
+    margin: auto;
+}
+footer.rodape div.rodapeprincipal div.news div.formnews div.seunomenews,  
+footer.rodape div.rodapeprincipal div.news div.formnews div.emailnews, 
+footer.rodape div.rodapeprincipal div.news div.formnews div.cadastrarnews{
+    width: 250px;
+    /*background-color: aqua;*/
+    line-height: 30px; 
+}
+footer.rodape div.rodapeprincipal div.news div.formnews div.seunomenews input,  
+footer.rodape div.rodapeprincipal div.news div.formnews div.emailnews input{
+    width: 235px;
+    height: 25px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border: 2px solid #BFAF9E;
+    padding-left: 10px;
+}
+footer.rodape div.rodapeprincipal div.news div.formnews div.cadastrarnews button{
+    width: 250px;
+    height: 30px;
+    background-color: #BFAF9E;
+    color: white;
+    border: 2px solid white;
+    font-size: 14px;
+    
+}
+
+footer.rodape div.rodapeprincipal div.news div.formnews div.cadastrarnews button:hover{
+    background-color: #D9CDBF;
+}
+
+/***********************************/
+
+footer.rodape div.rodapeprincipal div.institucional {
+    width: 350px;
+    height: 350px;
+    /*background-color: #262626;*/
+    float: right;
+}
+
+footer.rodape div.rodapeprincipal div.institucional nav.menuinstitucional{
+    width: 180px;
+    height: 100px;
+    /*background-color: aliceblue;*/
+    margin: auto;
+
+}
+
+footer.rodape div.rodapeprincipal div.institucional nav.menuinstitucional ul li{
+    list-style: none;
+}
+
+footer.rodape div.rodapeprincipal div.institucional nav.menuinstitucional ul li a{
+    color: #262626;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+footer.rodape div.rodapeprincipal div.institucional nav.menuinstitucional ul li a:hover{
+    color: #636363;
+}
+
+
+footer.rodape div.rodapeprincipal div.faleconosco h2, footer.rodape div.rodapeprincipal div.news h2, footer.rodape div.rodapeprincipal div.institucional h2 {
+    text-align: center;
+    color: #262626;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 62px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}

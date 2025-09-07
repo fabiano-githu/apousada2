@@ -1,0 +1,122 @@
+
+section.containerprincipal div#turismoregiao{
+    width: 1200px;
+    height: 900px;
+    /*background-color: azure;*/
+ 
+}
+
+section.containerprincipal div#turismoregiao h1{
+    text-align: center;
+    color: #262626;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    line-height: 1.5;
+    margin-bottom: 10px;  
+    margin-top: 70px;
+}
+
+section.containerprincipal div#turismoregiao p{
+   color:#262626;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 16px;
+   line-height: 1.5;
+   margin-top: -5px;
+}
+
+section.containerprincipal div#turismoregiao div#imagem1pedra{
+    width: 450px;
+    height:240px;
+    float: left;
+    margin-top: 40px;
+}
+
+section.containerprincipal div#turismoregiao div#imagem1pedra img{
+    width: 450px;
+    height:350px;
+    border-radius: 10px;
+    border: #D9CDBF 5px solid;
+    box-shadow: black 10px 10px 10px;
+    margin-top: 100px;
+}
+
+section.containerprincipal div#turismoregiao div#imagem1pedra img:hover{
+    scale: 1.1;
+    transition: 0.100s
+    
+}
+
+
+section.containerprincipal div#turismoregiao div#textopedra{
+    width: 700px;
+    height:240px;
+    float: right;
+    margin-top: 40px;
+}
+
+section.containerprincipal div#turismoregiao div#textopedra h2{
+    color: #262626;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    line-height: 1.5;
+    margin-bottom: 10px;  
+    margin-top: 150px;
+}
+
+
+
+section.containerprincipal div#turismoregiao div#fotonoel{
+    width: 450px;
+    height:240px;
+    float: right;
+    margin-top: 40px;
+    
+}
+
+section.containerprincipal div#turismoregiao div#fotonoel img{
+
+    width: 450px;
+    height:350px;
+    border-radius: 10px;
+    border: #D9CDBF 5px solid;
+    box-shadow: black 10px 10px 10px;
+    margin-top: 300px;
+    
+}
+
+section.containerprincipal div#turismoregiao div#fotonoel img:hover{
+    scale: 1.1;
+    transition: 0.100s
+}
+
+
+section.containerprincipal div#turismoregiao div#textonoel{
+    width: 750px;
+    height:240px;
+    float: left;
+    margin-top: 40px;
+}
+
+section.containerprincipal div#turismoregiao div#textonoel h3{
+    color: #262626;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    line-height: 1.5;
+    margin-bottom: 10px;  
+    margin-top: 350px;
+    margin-left: 150px;
+
+}
+
+section.containerprincipal div#turismoregiao div#textonoel p{
+    color:#262626;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+   margin-bottom: 20px;
+   margin-top: -20px;
+   margin-left: 150px;
+    
+}
+
+

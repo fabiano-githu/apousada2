@@ -1,0 +1,133 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: auto;
+}
+
+/* Deifina o contêiner do carrosel com posição relativa para posicionar elementos filhos,
+largura máximo de 1200px, altura fixa, esconde conteúdo que ultrapassa os limites, adiciona 
+bordas arrendodas e sombra para profundidade*/ 
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+/* Cada slide é posicionado absolutamente no canto superior esquerdo, ocupa toda a largura e
+altura do carrossel, centralizar o conteúdo com flexbox, começa invisível (opacidade 0)
+e tem transição suave de opacidade*/
+
+.carousel-item.active{
+    opacity: 1;
+
+}
+
+/*  A classe 'active' torna p slide visível ao definir opacidade com 1 */
+
+.carousel-content{
+    text-align: center;
+    color: #1a1a2e;
+    padding: 2rem;
+    max-width: 90%;
+}
+
+.carousel-content h1{
+    font-size: 2.5rem;
+    font-weight: 600px;
+    margin-bottom: 1rem;
+}
+
+.carousel-content p{
+    font-size: 1.5rem;
+    font-weight: 300px;
+    max-width:  600px;
+    margin: 0 auto;
+}
+
+/* Defina o tamanho da font do  parágrafo como 1.rem,peso leve,
+ largura mãxima de 600px e centralizar com margin automática*/
+
+.carousel-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+/* Posiciona os indicadores (bolinhas) na parte inferior central do carrosel, usa transform
+para cetralizar horizontal, e organizar as bolinhas em linha com espaçamento*/
+
+.carousel-dot{
+    width: 12px;
+    height: 12px;
+    background-color:#D9CDBF;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: backgroud-color 0.3s ease;
+}
+
+/* Defina as bolinhas com tamanho 12x12x, cor coral clara, formato circular, cursor enterativo
+e transições suaves para cor e escala */
+
+.carousel-dot.active{
+    background-color:#D9CDBF;
+    transform: scale(1.3);
+}
+
+/* Define as bolinhas tem cor coral mais escura e é ampliada para indicar o slide atual */
+
+.carousel-dot:hover{
+    background-color:black;
+}
+
+/* Ao passar o mause, a bolinha muda para um tom intermediário de coral*/
+
+@media (max-width: 768px) {
+    .carousel {
+        height: 300px;
+    }
+
+
+/* Reduz a altura do carrossel em telas monores para melhor adaptação */
+
+.carousel-content h1{
+    font-size: 1.8rem;
+
+}
+/* Reduz o tamanho do título para 1.8rem em telas menores*/
+.carousel-content p{
+    font-size: 1rem;
+}
+
+/* Reduz o tamanho do parágrafo para 1rem em telas menores */
+
+.carousel-dot {
+    width: 10px;
+    height: 10px;
+}
+/* Reduz o tamanho das bolinhas para 10x10px em telas menores */
+
+}
+
+
+
+
+
+
+
+
+

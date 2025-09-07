@@ -1,0 +1,82 @@
+section.containerprincipal{
+    width: 1200px;
+    height: 900px;
+    /*background-color: azure;*/
+}
+
+
+
+section.containerprincipal div#fotoimagem  h1{
+    text-align: center;
+    color: #262626;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    line-height: 1.5;
+    margin-bottom: 10px;  
+    margin-top: 70px;
+}
+
+section.containerprincipal div#fotoimagem div#foto {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 10px;
+   
+}
+
+section.containerprincipal div#fotoimagem div#foto div#foto1{
+    width: 290px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: black 10px 10px 10px;
+    background-color: #D9CDBF;
+}
+
+section.containerprincipal div#fotoimagem div#foto div#foto1 img{
+    width: 290px;
+    height: 300px;
+    border-radius: 10px;
+    border: #f6f2ed 5px solid;
+    box-shadow: black 10px 10px 10px;
+    
+}
+
+section.containerprincipal div#fotoimagem div#foto div#foto1 p{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    color: rgb(8, 9, 9);
+    text-align: center;
+    margin-top: 50px;
+}
+
+section.containerprincipal div#fotoimagem div#foto div#foto2{
+    width: 290px;
+    height: 300px;
+    border-radius: 10px;
+    border: #D9CDBF 5px solid;
+    box-shadow: black 10px 10px 10px;
+}
+
+section.containerprincipal div#fotoimagem div#foto div#foto3{
+    width: 290px;
+    height: 300px;
+    border-radius: 10px;
+    border: #D9CDBF 5px solid;
+    box-shadow: black 10px 10px 10px;
+}
+
+section.containerprincipal div#fotoimagem div#foto div#foto4{
+    width: 290px;
+    height: 300px;
+    border-radius: 10px;
+    border: #D9CDBF 5px solid;
+    box-shadow: black 10px 10px 10px;
+}
+
+  
